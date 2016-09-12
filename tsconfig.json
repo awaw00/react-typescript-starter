@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "baseUrl": "src"
+    },
+    "compileOnSave": false,
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "global.d.ts"
+    ]
+}

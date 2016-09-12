@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "outDir": "../bin",
+        "sourceMap": true
+    },
+    "compileOnSave": false,
+    "include": [
+        "./**/*.ts",
+        "./global.d.ts"
+    ]
+}
