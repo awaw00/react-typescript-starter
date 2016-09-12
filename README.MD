@@ -20,9 +20,6 @@ run `$ npm start`
 ## Deploy
 run `$ chmod +x deploy.sh` and `$ ./deploy.sh`(or run `deploy.cmd` only in windows)
 
-## NOTE
-make sure your node version is above 6.x
-
 ## Recommend Editors
 - [Visual Studio Code](https://github.com/Microsoft/vscode)(use VSC and TS to speed up your coding efficiency)
 - [Atom](https://github.com/atom/atom) with [atom-typescript](https://github.com/TypeStrong/atom-typescript) plugin
