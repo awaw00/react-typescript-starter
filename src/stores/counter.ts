@@ -7,14 +7,18 @@ class CounterStore {
     return this._counter;
   }
 
-  increase (): void {
+  increase = (): void => {
     this._counter += 1;
-  }
-  doubleIncrease (): void {
+  };
+  doubleIncrease = (): void => {
     setTimeout(() => {
       this._counter *= 2;
     }, 500);
-  }
+  };
+  reset = (): void => {
+    this._counter = 0;
+  };
 }
 
+export { CounterStore };
 export default new CounterStore();

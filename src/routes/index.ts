@@ -1,6 +1,6 @@
+import HomeContainer from 'containers/HomeContainer';
 import welcome from './Welcome';
 import counter from './Counter';
-import HomeContainer from 'containers/HomeContainer';
 
 export default {
   path: '/',
@@ -9,7 +9,7 @@ export default {
     component: welcome.component
   },
   childRoutes: [
-    counter,
-    welcome
+    welcome,
+    counter
   ]
 };
