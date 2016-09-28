@@ -2,11 +2,14 @@ import * as React from 'react'; // tslint:disable-line
 import { render } from 'react-dom';
 import { browserHistory } from 'react-router';
 import { AppContainer } from 'react-hot-loader';
+import createStore from 'stores/createStore';
 import Root from './Root';
 import routes from './routes';
 
+const store = createStore({}, browserHistory);
+
 const bootstrap = (routes) => {
-  let App = <Root history={browserHistory} routes={routes} />;
+  let App = <Root history={browserHistory} store={store} routes={routes} />;
   if (__DEV__) {
     App = <AppContainer>{App}</AppContainer>;
   }

@@ -1,24 +1,34 @@
 import * as React from 'react';
-import { observer } from 'mobx-react';
-import counterStore from 'stores/counter';
+import { increase, double } from 'stores/actions/counter';
+import { connect } from 'react-redux';
 
-@observer
-class Counter extends React.Component<any, any> {
+interface ICounterProps {
+  counter: number;
+  increase: () => {};
+  double: () => {};
+}
+class Counter extends React.Component<ICounterProps, any> {
   componentWillMount () {
-    counterStore.reset();
   }
   render () {
+    const { counter, increase, double } = this.props;
     return (
       <div>
-        <p>Counter: {counterStore.counter}</p>
+        <p>Counter: {counter}</p>
         <p>
-          <button onClick={counterStore.increase}>sync increase</button>
+          <button onClick={increase}>sync increase</button>
           {'  '}
-          <button onClick={counterStore.doubleIncrease}>async double</button>
+          <button onClick={double}>async double</button>
         </p>
       </div>
     );
   }
 }
 
-export default Counter;
+export default connect(
+  (state) => ({counter: state.counter}),
+  {
+    increase,
+    double
+  }
+)(Counter);

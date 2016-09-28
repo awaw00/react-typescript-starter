@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Write your react application with typescript!",
   "main": "index.js",
   "scripts": {
@@ -24,9 +24,9 @@
   },
   "keywords": [
     "react",
-    "typescript",
-    "mobx",
-    "mobx-react"
+    "redux",
+    "koa",
+    "typescript"
   ],
   "author": "awaw00 <awaw0618@outlook.com>",
   "license": "MIT",
@@ -37,20 +37,27 @@
     "koa-proxy": "^0.6.0",
     "koa-router": "^5.4.0",
     "koa-static": "^2.0.0",
-    "mobx": "^2.5.1",
-    "mobx-react": "^3.5.5",
     "normalize.css": "^4.2.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "react-router": "^2.7.0"
+    "react-redux": "^4.4.5",
+    "react-router": "^2.7.0",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.6.0",
+    "redux-actions": "^0.12.0",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
+    "@types/core-js": "^0.9.34",
     "@types/koa": "^2.0.32",
     "@types/koa-router": "^7.0.20",
     "@types/node": "^6.0.38",
     "@types/react": "^0.14.34",
     "@types/react-dom": "^0.14.16",
     "@types/react-router": "^2.0.33",
+    "@types/react-router-redux": "^4.0.33",
+    "@types/redux-actions": "^0.8.30",
+    "@types/redux-thunk": "^2.1.31",
     "better-npm-run": "0.0.11",
     "config": "^1.21.0",
     "css-loader": "^0.25.0",

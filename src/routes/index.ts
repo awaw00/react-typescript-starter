@@ -1,4 +1,5 @@
 import HomeContainer from 'containers/HomeContainer';
+console.log(HomeContainer);
 import welcome from './Welcome';
 import counter from './Counter';
 

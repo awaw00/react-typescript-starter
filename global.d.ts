@@ -22,3 +22,8 @@ interface NodeRequire {
 declare var require: NodeRequire;
 
 declare var __DEV__: boolean;
+
+interface IAction<T> {
+  type: string;
+  payload: T;
+}
