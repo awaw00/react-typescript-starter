@@ -6,7 +6,16 @@
         "noImplicitAny": false,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "baseUrl": "src"
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*",
+                "src/*"
+            ]
+        },
+        "types": [
+            "core-js"
+        ]
     },
     "compileOnSave": false,
     "include": [

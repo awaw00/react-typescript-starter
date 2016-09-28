@@ -5,7 +5,10 @@
         "noImplicitAny": false,
         "experimentalDecorators": true,
         "outDir": "../bin",
-        "sourceMap": true
+        "sourceMap": true,
+        "types": [
+            "core-js"
+        ]
     },
     "compileOnSave": false,
     "include": [
