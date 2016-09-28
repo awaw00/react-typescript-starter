@@ -3,8 +3,8 @@ React Typescript Starter
 Build your awesome react app with typescript!
 
 ## Feature
-- [typescript@2.1](https://github.com/Microsoft/TypeScript)
-- [mobx](https://github.com/mobxjs/mobx)[(and mobx-react)](https://github.com/mobxjs/mobx-react)
+- [typescript@2.0](https://github.com/Microsoft/TypeScript)
+- [mobx](https://github.com/mobxjs/mobx) and [(mobx-react)](https://github.com/mobxjs/mobx-react)
 - [webpack](https://github.com/webpack/webpack)
 - [koa@2.0](https://github.com/koajs/koa)
 - [react-hot-loader@3.0](https://github.com/gaearon/react-hot-loader/tree/next)
