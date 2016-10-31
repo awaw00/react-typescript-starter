@@ -18,9 +18,7 @@ var webpackConfig = {
     app: [path.join(__dirname, 'src/index')],
     vendor: [
       'react',
-      'react-router',
-      'mobx',
-      'mobx-react'
+      'react-router'
     ]
   },
   output: {

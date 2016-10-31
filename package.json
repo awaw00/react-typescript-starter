@@ -49,11 +49,13 @@
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
+    "@types/history": "^2.0.39",
     "@types/koa": "^2.0.32",
     "@types/koa-router": "^7.0.20",
     "@types/node": "^6.0.38",
     "@types/react": "^0.14.34",
     "@types/react-dom": "^0.14.16",
+    "@types/react-redux": "^4.4.32",
     "@types/react-router": "^2.0.33",
     "@types/react-router-redux": "^4.0.33",
     "@types/redux-actions": "^0.8.30",
